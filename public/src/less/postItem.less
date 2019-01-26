@@ -1,0 +1,63 @@
+#post-item-container {
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 20px 0px;
+  border-radius: 4px;
+  font-family: Roboto;
+  color: #252525;
+  hr {
+    margin: 6px 0px;
+  }
+  .profileImage {
+      width: 50px;
+      height: 33px;
+      float: left;
+      background: url(../images/user.png);
+      background-size: contain;
+      display: inline-block;
+      background-repeat: no-repeat;
+    }
+    .profile-header-info {
+      display: inline-block;
+      float: left;
+      margin-left: 10px;
+      font-size: 14px;
+      .username {
+        display: block;
+        font-weight: bold;
+        text-align: left;
+        color: #4267b2;
+        &:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+      .age {
+        display: block;
+        text-align: left;
+      }
+    }
+    .content {
+      display: block;
+      text-align: left;
+      padding: 6px;
+    }
+    .comment-options-container {
+      .comment-button {
+        float: left;
+        span {
+          margin-left: 6px;
+        }
+      }
+      .comment-count {
+        float: right;
+        margin-top: 5px;
+        color: rgba(0, 0, 0, 0.6);
+        &:hover {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+}
